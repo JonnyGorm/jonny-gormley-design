@@ -184,7 +184,7 @@ header, #projects, #skills, #about, footer {
 
 #projects p, #about p {
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 h1,h2,h3,h4,h5{
@@ -374,6 +374,10 @@ header h2 {
 
 #about {
   width: 100%;
+}
+
+#profile-image {
+  width: 90%;
 }
 
 #about h3, #about h4, #about p{
@@ -606,7 +610,7 @@ footer .social-icons li i {
         }
 
         .about-info h4 {
-          margin: 0 0 40px 0;
+          margin: 0 0 60px 0;
         }
 
         .about-text {
@@ -696,8 +700,16 @@ footer .social-icons li i {
         }
 
 
+        .about-info h3{
+          line-height: 3rem;
+        }
+
+        #about figure {
+          width:50%;
+        }
+
         .about-info h4 {
-          text-align: center;
+          text-align: left;
         }
 
         /*** FOOTER ***/
@@ -764,7 +776,7 @@ footer .social-icons li i {
 
         .about-info h3 {
           font-size: 3.75rem;
-          text-align: center;
+          text-align: left;
         }
 
         .about-info h4 {
@@ -906,9 +918,17 @@ footer .social-icons li i {
           justify-content: space-between;
         }
 
-        .about-info {
-          width:100%;
+        #about figure {
+          width:35%;
+          margin-top: 0;
         }
+
+        .about-info {
+          width: 58%;
+          margin-top: 15px;
+        }
+
+        
 
         /*** CONTACT ***/
 
