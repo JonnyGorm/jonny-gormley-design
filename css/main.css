@@ -944,6 +944,8 @@ footer .social-icons li i {
           justify-content: space-between;
         }
 
+        /*** TOP BUTTON ***/
+
         .top {
           display:flex;
           justify-content: center;
@@ -952,21 +954,15 @@ footer .social-icons li i {
           font-size: 50px;
           margin: 180vh 0 0 auto ;
           height: 0;
-          
           padding: 10px 0 0 0;
           color: #E9B14C;
           background: transparent;
           position: sticky;
           bottom: 20px;
-          /* margin-top: 176vh; */
           --offset: 200px;
-          
-          
         }
 
-        body {
-          border: 1px solid transparent;
-        }
+        
 
         @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
